@@ -1,0 +1,110 @@
+h2 {
+  display: block;
+  font-size: 1.5em;
+  margin-top: 0.50em;
+  margin-bottom: 0.25em;
+  margin-left: 0;
+  margin-right: 0;
+  font-weight: bold;
+}
+a {
+  color: #1a53af;
+  text-decoration: none;
+  text-transform: uppercase;
+}
+
+#wrapper {
+  margin: 0px 0px;
+  width: 275px;
+  height:500px;
+  font-family: "Helvetica Neue", Helvetica, Arial, sans-serif;
+  font-size: 13px;
+  max-height: 606px;
+  color: #2a2a2a;
+  
+}
+#detailswrapper {
+  margin: 0px 0px;
+  width: 750px;
+  height:500px;
+  font-family: "Helvetica Neue", Helvetica, Arial, sans-serif;
+  font-size: 13px;
+  max-height: 606px;
+  color: #2a2a2a;
+  
+}
+#titletext {
+    padding: 8px 8px 2px 0px;
+    text-align: center;
+}
+.bodytext{
+	font-family: 'Open Sans Condensed', sans-serif;
+	letter-spacing: 1px;
+}
+.logo {
+    cursor: context-menu;
+    height: auto;
+    width: 50%;
+}
+.detailslogo {
+    cursor: context-menu;
+    height: auto;
+    width: 20%;
+}
+input[type=submit] {
+	background-color: #a0a0a0;
+	border: none;
+	color: white;
+	padding: 10px 15px;
+	text-align: center;
+	font-size: 14px;
+	font-family: 'Source Sans Pro', sans-serif;
+	letter-spacing: 2px;
+	cursor: pointer;	
+}
+input[type=submit]:hover {
+	background-color: #6d6d6d;
+	}
+	
+.password {
+	/*font-family: 'Roboto Condensed', sans-serif;*/
+	font-family: 'Source Sans Pro', sans-serif;
+	letter-spacing: 10px;
+}
+
+.hackEDposition {
+	position: fixed;
+	bottom:10px;
+	left:17%;
+	text-align: center;
+}
+.detailsHackEDposition {
+	position: fixed;
+	bottom:10px;
+	left:37%;
+	text-align: center;
+}
+.form-control{
+	width:44%;
+	height:40px;
+	padding:10px 10px;
+	font-size:14px;
+	line-height:1.5;
+	color:#333;
+	background-color:#fff;
+	border:1px solid #ccc;
+	border-radius:3px;
+	position: relative;
+	top: 0px;
+    /*float: left;*/
+}
+#settingtext{
+	display: inline-block;
+	position: relative;
+	top: 0px;
+}
+.trackingtext{
+	/*display: inline;*/
+	position: relative;
+	top: 0px;
+}
